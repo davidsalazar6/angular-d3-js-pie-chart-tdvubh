@@ -22,8 +22,8 @@ export class D3PieComponent implements AfterViewInit {
 
   private svg;
   private margin = 50;
-  private width = 700;
-  private height = 700;
+  private width = 900;
+  private height = 899;
   private radius = Math.min(this.width, this.height) / 2 - this.margin;
   private colorMapping = {};
   private textColor: string = '#ffffff';
