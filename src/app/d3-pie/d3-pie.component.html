@@ -1,4 +1,19 @@
-<div id="chart-container">
-  <figure id="pie"></figure>
-  <div id="legend"></div>
-</div>
+<mat-card>
+  <mat-card-content>
+    <div id="chart-container">
+      <div #pie id="pie"></div>
+      <div #legend id="legend">
+        <div id="legend-controls">
+          <mat-icon id="prevPage" class="legend-control"
+            >keyboard_arrow_left</mat-icon
+          >
+          <span id="pageCount"></span>
+          <mat-icon id="nextPage" class="legend-control"
+            >keyboard_arrow_right</mat-icon
+          >
+        </div>
+        <div id="legend-items"></div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
